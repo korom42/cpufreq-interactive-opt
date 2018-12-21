@@ -99,7 +99,7 @@ function balance_custom()
 
 function performance_custom()
 {
-	lock_value "0:1780000 4:2880000" /sys/module/msm_performance/parameters/cpu_max_freq
+	lock_value "0:1780000 4:2280000" /sys/module/msm_performance/parameters/cpu_max_freq
 	lock_value "0:1180000 4:0" /sys/module/cpu_boost/parameters/input_boost_freq
 	lock_value 2 /sys/devices/system/cpu/cpu4/core_ctl/min_cpus
 	lock_value 4 /sys/devices/system/cpu/cpu4/core_ctl/max_cpus
